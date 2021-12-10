@@ -8,124 +8,188 @@ Licence URI: http://www.os-templates.com/template-terms
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Darkness | Full Width</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
+  <title>Darkness | Full Width</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" />
 </head>
 <body id="top">
-<div class="wrapper">
-  <div id="header">
-    <div id="logo">
-      <h1><a href="../index.html">Darkness</a></h1>
-      <p>Free Website Template</p>
+  <div class="wrapper">
+    <div id="header">
+      <div id="logo">
+        <h1><a href="../index.html">Darkness</a></h1>
+        <p>Free Website Template</p>
+      </div>
+      <div id="topnav">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="style-demo.html">Style Demo</a></li>
+          <li class="active"><a href="full-width.html">Full Width</a></li>
+          <li><a href="#">Link Text</a></li>
+          <li class="last"><a href="#">A Long Link Text</a></li>
+        </ul>
+      </div>
+      <br class="clear" />
     </div>
-    <div id="topnav">
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="style-demo.html">Style Demo</a></li>
-        <li class="active"><a href="full-width.html">Full Width</a></li>
-        <li><a href="#">Link Text</a></li>
-        <li class="last"><a href="#">A Long Link Text</a></li>
-      </ul>
-    </div>
-    <br class="clear" />
   </div>
-</div>
-<div class="wrapper">
-  <div id="breadcrumb">
-    <ul>
-      <li class="first">You Are Here</li>
-      <li>&#187;</li>
-      <li><a href="#">Home</a></li>
-      <li>&#187;</li>
-      <li><a href="#">Grand Parent</a></li>
-      <li>&#187;</li>
-      <li><a href="#">Parent</a></li>
-      <li>&#187;</li>
-      <li class="current"><a href="#">Child</a></li>
-    </ul>
-  </div>
-</div>
-<div class="wrapper">
-  <div id="container">
-    <h1>Headline 1 Colour and Size</h1>
-    <h2>Headline 2 Colour and Size</h2>
-    <h3>Headline 3 Colour and Size</h3>
-    <h4>Headline 4 Colour and Size</h4>
-    <h5>Headline 5 Colour and Size</h5>
-    <h6>Headline 6 Colour and Size</h6>
-    <p>This is a W3C compliant free website template from <a href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a>. This template is distributed using a <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>.</p>
-    <p>You can use and modify the template for both personal and commercial use. You must keep all copyright information and credit links in the template and associated files. For more CSS templates visit <a href="http://www.os-templates.com/">Free Website Templates</a>.</p>
-    <ul>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li>Etiam vel sapien et est adipiscing commodo.</li>
-      <li>Duis pharetra eleifend sapien, id faucibus dolor rutrum et.</li>
-      <li>Donec et dui dolor, in lacinia leo.</li>
-      <li>Mauris posuere tellus ac purus adipiscing dapibus.</li>
-    </ul>
-    <p>Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque sed. Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt. Namjusto cras urna urnaretra lor urna neque sed quis orci nulla. Laoremut vitae doloreet condimentumst phasellentes dolor ut a ipsum id consectetus. Inpede cumst vitae ris tellentesque fring intesquet nibh fames nulla curabitudin.</p>
-    <ol>
-      <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-      <li>Etiam vel sapien et est adipiscing commodo.</li>
-      <li>Duis pharetra eleifend sapien, id faucibus dolor rutrum et.</li>
-      <li>Donec et dui dolor, in lacinia leo.</li>
-      <li>Mauris posuere tellus ac purus adipiscing dapibus.</li>
-    </ol>
-  </div>
-</div>
-<div class="wrapper">
-  <div id="footer">
-    <div id="newsletter">
-      <h2>Stay In The Know !</h2>
-      <p>Please enter your email to join our mailing list</p>
-      <form action="#" method="post">
-        <fieldset>
-          <legend>News Letter</legend>
-          <input type="text" value="Enter Email Here&hellip;"  onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
-          <input type="submit" name="news_go" id="news_go" value="GO" />
-        </fieldset>
+
+  <div class="wrapper">
+    <div style="margin-left: 50%;">
+      <form>
+        <table style="border:3px #cccccc solid;" cellpadding="10" border=‘1’>
+          <tr>
+            <th colspan="3" class="inh" style="color:green">
+              About -- <span>109202007</span>
+            </th>
+          </tr>
+          <tr>
+            <td rowspan="3">
+              <figure>
+                <img src="2be3534f9501e545e618c954c5ce45b5.jpg" width="135" height="90">
+                <figcaption>personal photo</figcaption>
+              </figure>
+            </td>
+            <td colspan="2">
+              <label class="threeStyle">Name:
+                <input type="text" name="name">
+              </label>
+              <br>
+              <label>Gender:
+                <input type="radio" name="gender">male
+                <input type="radio" name="gender">female
+                <input type="radio" name="gender">other<br>
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label>County:
+                <select>
+                  <option>Taipei</option>
+                  <option>Tainan</option>
+                  <option>Taichung</option>
+                  <option>Taoyuan</option>
+                </select>
+              </label>
+            </td>
+            <td>
+              <label>Birthday:
+                <input type="date" name="bd">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <label>E-mail:
+                <input type="mail" name="mail">
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <em>Hobby</em>
+            </td>
+            <td colspan="2">
+              <input type="checkbox" name="s">Swimming
+              <input type="checkbox" name="v">Volleyball
+              <input type="checkbox" name="m">Movie
+              <input type="checkbox" name="g">Game
+              <input type="checkbox" name="sl">sleep
+            </td>
+          </tr>
+          <tr>
+            <td >
+              <hl><em>Skill</em></hl>
+            </td>
+            <td colspan="2">
+              <input type="checkbox" name="s">Java
+              <input type="checkbox" name="v">HTML
+              <input type="checkbox" name="m">Python
+              <input type="checkbox" name="g">Microsoft Office
+              <input type="checkbox" name="sl">Premiere
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Say Someting
+            </td>
+            <td colspan="2">
+              <input type="textarea" name="sl" placeholder="Say something here." size="25">
+            </td>
+          </tr>
+          <tr >
+            <td colspan="3">
+              <input type="submit" value="submit">
+              <input type="reset" value="clear">
+            </td>
+          </tr>
+        </table>
       </form>
-      <p>To unsubscribe please <a href="#">click here &raquo;</a></p>
     </div>
-    <div class="footbox">
-      <h2>Lacus interdum</h2>
-      <ul>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li class="last"><a href="#">Praesent et eros</a></li>
-      </ul>
-    </div>
-    <div class="footbox">
-      <h2>Lacus interdum</h2>
-      <ul>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li class="last"><a href="#">Praesent et eros</a></li>
-      </ul>
-    </div>
-    <div class="footbox">
-      <h2>Lacus interdum</h2>
-      <ul>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li class="last"><a href="#">Praesent et eros</a></li>
-      </ul>
-    </div>
-    <br class="clear" />
+    <br>
   </div>
-</div>
-<div class="wrapper">
-  <div id="copyright">
-    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <br class="clear" />
+
+  
+  
+    <div  style='background-image:url("o_nccuunit_36_455767_31055.jpg");background-repeat: no-repeat;background-position: center;border: 7px solid green;background-size: cover;'>
+      
+      <img src="L.png" width="452" height="346" style="display: block;margin-left: auto;margin-right: auto;margin-top: 50px;margin-bottom: 50px;border: 3px solid blue">
+    
+    </div>
+  
+
+  <div class="wrapper">
+    <div id="footer">
+      <div id="newsletter">
+        <h2>Stay In The Know !</h2>
+        <p>Please enter your email to join our mailing list</p>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>News Letter</legend>
+            <input type="text" value="Enter Email Here&hellip;"  onfocus="this.value=(this.value=='Enter Email Here&hellip;')? '' : this.value ;" />
+            <input type="submit" name="news_go" id="news_go" value="GO" />
+          </fieldset>
+        </form>
+        <p>To unsubscribe please <a href="#">click here &raquo;</a></p>
+      </div>
+      <div class="footbox">
+        <h2>Lacus interdum</h2>
+        <ul>
+          <li><a href="#">Praesent et eros</a></li>
+          <li><a href="#">Praesent et eros</a></li>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+          <li><a href="#">Suspendisse in neque</a></li>
+          <li class="last"><a href="#">Praesent et eros</a></li>
+        </ul>
+      </div>
+      <div class="footbox">
+        <h2>Lacus interdum</h2>
+        <ul>
+          <li><a href="#">Praesent et eros</a></li>
+          <li><a href="#">Praesent et eros</a></li>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+          <li><a href="#">Suspendisse in neque</a></li>
+          <li class="last"><a href="#">Praesent et eros</a></li>
+        </ul>
+      </div>
+      <div class="footbox">
+        <h2>Lacus interdum</h2>
+        <ul>
+          <li><a href="#">Praesent et eros</a></li>
+          <li><a href="#">Praesent et eros</a></li>
+          <li><a href="#">Lorem ipsum dolor</a></li>
+          <li><a href="#">Suspendisse in neque</a></li>
+          <li class="last"><a href="#">Praesent et eros</a></li>
+        </ul>
+      </div>
+      <br class="clear" />
+    </div>
   </div>
-</div>
+  <div class="wrapper">
+    <div id="copyright">
+      <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Domain Name</a></p>
+      <p class="fl_right">Template by <a target="_blank" href="http://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
+      <br class="clear" />
+    </div>
+  </div>
 </body>
 </html>
